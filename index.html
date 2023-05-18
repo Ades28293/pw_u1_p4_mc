@@ -6,25 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto unidad1</title>
+
+    <!--1.Selector Universal-->
+    <style>
+        *{
+            color: yellow;
+            background-color: rgb(117, 55, 55);
+        }
+        
+        h1{
+            color: blue;
+        }
+        p{
+            size: 17px;
+        }
+        
+    .clase1 {
+
+        color: white;
+
+        }
+
+        #idtitulogrande{
+            color: green;
+        }
+
+        a[href]{
+            color: black;
+        }
+
+        a[href*=".ec"]{
+            color: rgb(48, 201, 193);
+        }
+
+    /*    label:hover{
+            color: chartreuse;
+            background-color: blue;
+            font-size: 50px;
+        }
+*/
+
+    </style>
+
 </head>
 
 <body>
     <header>
         <h1 style="color: red;">Banco del Pichincha</h1>
         <h6 style="color: blue;">Banco del Pichincha</h6>
+        <h4 class="clase1"> Selector Clase1</h4>
+        <h3 class="clase1">Selector Clase2</h3>
+        <h3 class="clase2">Selector Clase2</h3>
+        <h2 id="idtitulogrande">Selector por ID</h2>
         <img src="./img/cabecera.png" alt="Cargando...">
     </header>
     <nav>
         <ul>
+            <!--
             <li>Cuentas</li>
             <li>Tarjetas</li>
             <li>Prestamos</li>
             <li>Inversiones</li>
-            <li>Servicios</li>
+            <li>Servicios</li>-->
+                <li>
+                    <a href="https://www.google.com.ec/">Google</a>
+                </li>
+                <li>
+                    <a href="https://outlook.live.com/owa/">Hotmail</a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com.ec/">Apple</a>
+                </li>
+               <label for="idapellido">Nombre:</label>
+               <input id="idnombre" type="text">
+               <label for="idnombre">Apellido:</label>
+               <input id="idapellido" type="text">
+
+
         </ul>
     </nav>
     <section>
         <article>
+            <h1>1</h1>
             <h3>Primer Parrafo</h3>
             <time datetime="12-10-2023">Publicado el 12-10-2023</time>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, libero sint dolorum culpa, voluptatibus
@@ -35,6 +98,7 @@
             </footer>
         </article>
         <article>
+            <h1>2</h1>
             <h3>Segundo Parrafo</h3>
             <time datetime="12-10-2023">Publicado el 12-10-2023</time>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolores quis at quas nesciunt corrupti ab
