@@ -55,6 +55,31 @@ article{
     margin-bottom: 25px;
     background-color: cadetblue;
 }
+
+.referencias{
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 20px;
+    
+    
+}
+
+article footer{
+    text-align: right;
+}
+
+.pie{
+    clear: both;
+}
+
+section img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid orange;
+}
+
 /*h1{
     color: red;
 }
