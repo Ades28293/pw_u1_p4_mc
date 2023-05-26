@@ -52,10 +52,10 @@ function convertir(idCampo){
     return parseInt(document.getElementById(idCampo).value);
 }
 
-function eliminarElemento{
-    document.getElementById('ideliminar').remove
+function eliminarElemento(){
+    document.getElementById('ideliminar').remove();
 }
 
-function insertarElemento{
+function insertarElemento(){
     document.getElementById('elemento').innerHTML='<strong>Importante</strong>';
 }
