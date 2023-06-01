@@ -1,15 +1,22 @@
+
+/*SELECTOR DE TIPO UNIVERSAL agarra toda la pagina los estilos*/
 *{
     color: yellow;
     background-color: rgb(117, 55, 55);
 }
-
+/*SELECTOR DE TIPO ELEMENTO en este afecta a todos los elementos body o h1 etc en el html */
 h1{
     color: blue;
 }
+
+/*SELECTOR DE TIPO ELEMENTO en este afecta a todos los elementos body o h1 etc en el html */
 p{
     size: 17px;
 }
 
+/* Es un SELECTOR DE TIPO CLASE este utilizamos para agrupar elementos
+ ya que le colocamos un nombre en el html para poder acceder  
+mediante el punto accedo al clase1 y con un espacio y el nombre del aelemento puedo acceder a ellos*/
 .clase1 {
 
 color: white;
@@ -20,13 +27,27 @@ color: white;
     color: green;
 }
 
+/*SELECTOR POR ATRIBUTO accedo mediante el elemento a  y coloco el atrbuto en corchetesa ->[href]
+para poder modificar atributo*/
 a[href]{
     color: black;
 }
 
+/*SELECTOR POR ATRIBUTO accedo mediante el elemento a  y coloco el atrbuto en corchetesa ->[href]
+para poder modificar atributo puede se algo específico o alguna caracteristica en especial igualando href a lo
+que quiero q se modifique*/
 a[href*=".ec"]{
     color: rgb(48, 201, 193);
 }
+
+/*SELECTOR DE TIPO PSEUDO-CLASS
+un selector de tipo pseudo-clase se utiliza para seleccionar elementos HTML específicos en función de su estado 
+o posición en relación con otros elementos.
+Aquí tienes algunos ejemplos de selectores de tipo pseudo-clase comunes en HTML:
+
+:hover: Selecciona un elemento cuando el cursor del mouse se encuentra sobre él.
+*/
+
 
 /*    label:hover{
     color: chartreuse;

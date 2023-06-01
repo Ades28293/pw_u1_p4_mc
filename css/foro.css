@@ -1,6 +1,12 @@
+/* Es un SELECTOR DE TIPO CLASE este utilizamos para agrupar elementos
+ ya que le colocamos un nombre en el html para poder acceder  
+mediante el punto accedo al menu y con un espacio y el nombre del aelemento puedo acceder a ellos*/
 .menu li{
-    
+    /*Cuando aplicas list-style: none; a un elemento de lista (<ul> o <ol>), se eliminan las
+     viñetas o marcadores que se muestran por defecto en los navegadores.*/
     list-style: none;
+
+
     display: inline-block;
     border:1px solid black;
     
@@ -26,11 +32,13 @@
     background-color: blanchedalmond;
     text-align: left;
 }
+
+/*Siempre debemos declarar el displey de tipo bloc en todo la estructura del html*/
 header,section,footer,aside,nav,article{
     display: block;
 }
 
-
+/*SELECTOR DE TIPO ELEMENTO en este afecta a todos los elementos body o h1 etc en el html */
 body{
     text-align: center;
     background: burlywood;
@@ -91,5 +99,8 @@ h3{
 }
 */
 h1,h2,h3{
-    color: rebeccapurple;
+    color: purple;
 }
+
+
+
