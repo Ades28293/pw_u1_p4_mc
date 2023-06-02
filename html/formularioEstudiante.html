@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Estudiante</title>
+    <link rel="stylesheet" href="../css/estudiante.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formulario">
+        <header>
+          <h1>Estudiante</h1>
+        </header>
+        <nav></nav>
+        <section>
+          <form class="form" action="https://miapi.com/estudiante" method="POST">
+          <h2>Nuevo Estudiante</h2>
+          <!--
+            Primera forma que form
+            
+          Nombre del elemento que se va a visualizar  
+          <label for=""></label>
+          Lo que se va ingesar la caja de texto para ingresar la informaciòn
+            <input type="text">
+        -->
+
+            <!--Estos tipo label no aparecen hasta que les pongan un estilo
+                placeholder marca de agua en la caja de texto-->
+            <p type="Nombre:"><input type="text" placeholder="Ingrese su nombre"></p>
+            <p type="Apellido:"><input type="text" placeholder="Ingrese su apellido"></p>
+            <p type="Hooby:"><input type="text" placeholder="Ingrese su hooby"></p>
+            <p type="Gènero:"><input type="text" placeholder="Ingrese su género"></p>
+            <p type="Ciudad:"><input type="text" placeholder="Ingrese su ciudad"></p>
+
+            <button>Guardar</button>
+        </form>
+        </section>
+        <footer></footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*Podemos utilizar el back ground en el body para que agarre en todo 
+la página*/
+body{
+    background-color: #174a6d;
+}
+
+.form{
+    width: 240px;
+    height: 370px;
+    background-color: #68b1e2;
+    border-radius: 8px;
+    padding: 20px 30px;
+    
+
+   /* max-width: calc(100vw-40px);*/
+   box-shadow: 50px 50px 40px -10px black ;
+
+   font-family: 'Times New Roman', Times, serif;
+   
+
+}
+
+h2{
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    width: 250px;
+    color: rgb(14, 69, 78);
+   /*subrayar el texto*/
+    border-bottom: 3px solid rgb(15, 110, 155);
+    
+    
+
+}
+/*Para vincular al label*/
+p:before{
+    /*contenidop del p va hacer un atributo*/
+    content: attr(type);
+    /*Solo para que aparezca en un bloque*/
+    display: block;
+    margin: 5px 2px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+/*diseño responsivo vamos a darle un porcentaje 
+para que se adapte el formulario a la pantalla*/
+
+input{
+width: 100%;
+/*para que no tenga borde se pone 0*/
+border: 0;
+
+border-bottom: 2px solid rgb(49, 64, 68);
+background: none;
+}
+
+::placeholder{
+    color: rgb(207, 212, 223);
+}
+
+/*efecto al input para quitar los bordes*/
+input:focus{
+    border-bottom: 2px solid rgb(20, 124, 172);
+}
+
+button{
+    color: #06362d ;
+    background-color: rgb(196, 207, 207);
+    font-size: 12px;
+    border-radius: 20px
+}
